@@ -11,5 +11,5 @@ else
 fi
 
 echo "스프링 프로젝트 실행 중..."
-nohup java -jar /home/ubuntu/spring/build/libs/dev01-0.0.1-SNAPSHOT.jar &
+nohup java -jar /home/ubuntu/spring/build/libs/dev01-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 &
 exit 0
