@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class VersionController {
     @GetMapping("/version")
     public ResponseEntity<String> getVersion(){
-        return ResponseEntity.ok("v7");
+        return ResponseEntity.ok("문자열 반환하겠다.");
     }
 }
